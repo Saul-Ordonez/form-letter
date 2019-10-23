@@ -7,6 +7,7 @@ $(document).ready(function() {
     $(".userName").text(userNameInput);
 
 
+    $("#letter").text($("#letter").text().toUpperCase());
     $("#letter").show();
 
     event.preventDefault();
